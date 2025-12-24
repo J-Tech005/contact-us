@@ -1,0 +1,87 @@
+
+
+/* sec7 */
+.sec7{
+    margin-top: 130px;
+}
+.sec7_text{
+     text-align: center;
+}
+.form_grid{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.form_flex{
+    display: flex;
+    /* gap: 200px; */
+}
+
+.check{
+    margin-left: 210px;
+}
+.input_text{
+     margin: 10px;
+    height: 40px;
+    width: 400px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.input_text1{
+     margin: 10px;
+    height: 40px;
+    width: 825px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.lab1{
+    margin-left: 360px;
+}
+
+.lab2{
+    margin-left: 390px;
+}
+
+form select{
+   margin: 10px;
+    height: 50px;
+    width: 840px;
+    border: 1px solid blue;
+    border-radius: 5px; 
+}
+
+.lab3{
+    margin-left: 10px;
+}
+
+form textarea{
+     border: 1px solid blue;
+    border-radius: 5px;
+     height: 200px;
+    width: 840px;
+    margin-left: 5px;
+}
+
+
+.submit{
+    text-align: center;
+}
+
+form button{
+  
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+}
+
+
+form button:hover{
+    background-color: darkblue;
+}

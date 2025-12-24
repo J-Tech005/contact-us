@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+     <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init({
+              publicKey: "8FEhIfLgswOUuKN2Q",
+            });
+        })();
+    </script>
+</head>
+<body>
+       <div class="sec7">
+        <section class="sec7_text">
+            <h4>Get In Touch</h4>
+            <h1>Contact Us</h1>
+            <p>Make a report, and get a response in mins. </p>
+
+            <h6 id="auten"></h6>
+        </section>
+        <form action="" id="contact_us">
+            <div class="form_grid">
+
+          
+             <div class="form_flex">
+                <label for="" class="lab3">Username</label><br>
+               
+            </div>
+             <div>
+                <input type="text" class="input_text1" name="username">
+            </div>
+             <div class="form_flex">
+                <label for="" class="lab3">Email</label><br>
+                <label for="" class="lab2">Phone number</label><br>
+            </div>
+             <div>
+                <input type="text"  class="input_text" name="useremail">
+                <input type="text"  class="input_text" name="phone">
+            </div>
+          
+            <label for="">Subject</label>
+            <input type="text" name="subject"  class="input_text1">
+
+            <label for="" class="lab3">Message</label><br>
+             <textarea name="message" id="" rows="15" cols="20" placeholder="Type your message..."></textarea><br>
+
+
+           
+             </div> 
+             
+             <div class="submit">
+                <button>Submit</button>
+             </div>
+               
+            
+        </form>
+        
+     <script src="contact_us.js"></script>
+       </div>
+
+</body>
+</html>
